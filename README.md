@@ -52,7 +52,7 @@ GUI Advanced Chat API یک رابط کاربری مدرن، سبک و کاملا
 
 <p align="center">
 
-<img src=".github/images/lite-mode.png" width="90%">
+<img src=".github/images/Lite-mode.png" width="90%">
 
 </p>
 
