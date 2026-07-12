@@ -1,42 +1,91 @@
-# Advanced AI Chat (PHP)
+<div align="center">
 
-A lightweight self-hosted AI chat interface written in PHP for local development.
+# GUI Advanced Chat API
 
-## Features
-- Multiple AI providers
-- Streaming responses (Server-Sent Events)
-- Markdown, KaTeX and syntax highlighting
-- Chat history management
-- Avatar and profile customization
-- File upload support
-- Dark theme interface
-- Internationalization support
+رابط کاربری مدرن برای تعامل با مدل های هوش مصنوعی سازگار با OpenAI API
 
-## Requirements
-- PHP 8.0+
-- Web server (Apache/Nginx)
-- An OpenAI-compatible API endpoint (default: local)
+[🇮🇷 فارسی](README.md) | [🇬🇧 English](README.en.md)
 
-## Installation
+<br>
 
-1. Clone the repository.
-2. Place the project in your web server directory.
-3. Open the application in your browser.
-4. Configure your provider and API key from Settings.
+نسخه فعلی
 
-## Project Structure
+**v2.2.0**
 
-```
-index.php      Frontend
-backend.php    Backend and data management
-api.php        Streaming API proxy
-assets/        CSS, JavaScript and translations
-```
+</div>
 
-## Security Notice
+---
 
-This project is intended primarily for local or self-hosted environments. Review the code and security configuration before exposing it to the public Internet.
+## معرفی
 
-## License
+GUI Advanced Chat API یک رابط کاربری مدرن، سبک و کاملا مستقل است که با PHP توسعه داده شده و امکان ارتباط با سرویس های هوش مصنوعی سازگار با OpenAI API را فراهم می کند.
 
-MIT License.
+این پروژه بدون نیاز به فریم ورک های سنگین طراحی شده و با تمرکز بر سرعت، سادگی، تجربه کاربری مناسب و قابلیت شخصی سازی توسعه یافته است.
+
+برنامه به صورت کامل روی هاست های معمولی PHP قابل اجرا بوده و تنها با چند فایل اصلی راه اندازی می شود.
+
+---
+
+# پیش نمایش
+
+> تصاویر داخل پوشه `.github/images`
+
+<p align="center">
+
+<img src=".github/images/preview.png" width="100%">
+
+</p>
+
+---
+
+## تصاویر بیشتر
+
+### تنظیمات
+
+<p align="center">
+
+<img src=".github/images/settings.png" width="90%">
+
+</p>
+
+### حالت روشن
+
+<p align="center">
+
+<img src=".github/images/lite-mode.png" width="90%">
+
+</p>
+
+---
+
+# مهم ترین قابلیت ها
+
+- رابط کاربری مدرن و واکنش گرا
+- طراحی مینیمال و سبک
+- توسعه یافته با PHP خالص
+- بدون نیاز به دیتابیس
+- پشتیبانی از API های سازگار با OpenAI
+- پاسخ های استریم (Streaming)
+- نمایش تدریجی پاسخ مدل
+- قابلیت توقف پاسخ در حال تولید
+- پشتیبانی از Markdown
+- نمایش فرمول های ریاضی با KaTeX
+- نمایش کد با Syntax Highlighting
+- طراحی مناسب برای موبایل و دسکتاپ
+- رابط کاربری سریع
+- مدیریت آسان تنظیمات
+- ساختار ساده برای توسعه دهندگان
+- امکان شخصی سازی آسان
+- مدیریت درخواست ها از سمت Backend
+- کدنویسی ماژولار
+- فایل های کم و ساختار ساده پروژه
+
+---
+
+# چرا این پروژه؟
+
+هدف این پروژه ارائه یک رابط کاربری سریع، سبک و قابل توسعه برای ارتباط با مدل های زبانی بزرگ است.
+
+در بسیاری از پروژه ها برای ساخت رابط کاربری نیاز به نصب ده ها وابستگی مختلف وجود دارد، اما GUI Advanced Chat API تنها با چند فایل اصلی اجرا می شود و به راحتی روی اکثر هاست های اشتراکی قابل استفاده است.
+
+این پروژه برای توسعه دهندگان، علاقه مندان به هوش مصنوعی و افرادی که قصد اتصال مدل های مختلف به یک رابط کاربری ساده را دارند طراحی شده است.
