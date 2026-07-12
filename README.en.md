@@ -54,7 +54,7 @@ Its modular architecture allows developers to customize both the frontend and ba
 
 <p align="center">
 
-<img src=".github/images/lite-mode.png" width="90%">
+<img src=".github/images/Lite-mode.png" width="90%">
 
 </p>
 
